@@ -175,7 +175,7 @@ export class Person {
             }
         }
     }
-    
+
     public verEtiquetas(nombreFichero:string):string{
         var resultado = "";
         for (var i = 0; i < this.getListaFotos().length; i++) {
